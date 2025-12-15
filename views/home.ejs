@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Football News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<%- include('partials/navbar') %>
+
+<!-- MAIN CONTENT -->
+<div class="container my-4">
+
+    <!-- Headline -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <span class="badge bg-danger mb-2">Premier League</span>
+            <h2 class="card-title mt-2">
+                Man City player ratings vs Crystal Palace:
+                Haaland & Foden down plucky Eagles
+            </h2>
+            <p class="text-muted">
+                Manchester City 3–0 Crystal Palace • Selhurst Park
+            </p>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <p>
+                Erling Haaland and Phil Foden raised their game as Manchester City beat
+                Crystal Palace 3-0 despite producing an underwhelming performance in
+                south London. Palace hit the woodwork in both halves, but City were
+                clinical when it mattered.
+            </p>
+
+            <p>
+                Haaland gave Pep Guardiola’s side the lead in the 40th minute with a
+                towering header following a move involving more than 20 passes.
+                Phil Foden doubled the advantage in the second half before Haaland
+                sealed the win with a late penalty.
+            </p>
+
+            <p>
+                Crystal Palace showed plenty of intent, striking the post twice and
+                troubling City on the counter, but the visitors managed the game
+                well to maintain pressure on Arsenal at the top of the table.
+            </p>
+        </div>
+    </div>
+
+    <!-- Player Ratings -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Player Ratings (Man City)</h5>
+        </div>
+        <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <strong>Erling Haaland</strong> – 7/10  
+                    <span class="text-muted d-block">
+                        Clinical finishing, two goals, decisive presence.
+                    </span>
+                </li>
+                <li class="list-group-item">
+                    <strong>Phil Foden</strong> – 7/10  
+                    <span class="text-muted d-block">
+                        Brilliant second-half strike, constant threat.
+                    </span>
+                </li>
+                <li class="list-group-item">
+                    <strong>Rayan Cherki</strong> – 7/10  
+                    <span class="text-muted d-block">
+                        Excellent footwork and key assist.
+                    </span>
+                </li>
+                <li class="list-group-item">
+                    <strong>Matheus Nunes</strong> – 7/10  
+                    <span class="text-muted d-block">
+                        Perfect cross for Haaland’s opener.
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Most Read -->
+    <div class="card shadow">
+        <div class="card-header bg-secondary text-white">
+            <h5 class="mb-0">Most Read</h5>
+        </div>
+        <div class="card-body">
+            <ol>
+                <li>Fortunate Arsenal need two own goals to beat Wolves</li>
+                <li>Raphinha fires Barca seven points clear</li>
+                <li>Mainoo situation sparks debate at United</li>
+                <li>Messi visibly uncomfortable as GOAT Tour turns ugly</li>
+            </ol>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
